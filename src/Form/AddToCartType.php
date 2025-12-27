@@ -20,7 +20,8 @@ class AddToCartType extends AbstractType
                     'max' => 99,
                     'class' => 'form-control',
                     'style' => 'max-width:100px'
-                ]
+                ],
+                'data' => 1
             ])
             ->add('color', ChoiceType::class, [
                 'label' => 'Select Color',
